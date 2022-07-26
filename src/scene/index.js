@@ -44,16 +44,16 @@ export default function scene(props) {
     }
   })
 
-  // React.useEffect(() => {
-  //   document.querySelector("#contactsbutton").addEventListener("click", () => {
-  //     window.open("https://www.linkedin.com/in/albinotonnina/");
-  //   });
-  // });
-  // React.useEffect(() => {
-  //   document.querySelector("#githubbutton").addEventListener("click", () => {
-  //     window.open("https://github.com/albinotonnina/albinotonnina.com/");
-  //   });
-  // });
+  React.useEffect(() => {
+    document.querySelector("#contactsbutton").addEventListener("click", () => {
+      window.open("https://www.linkedin.com/in/annisaindrayanti/")
+    })
+  })
+  React.useEffect(() => {
+    document.querySelector("#githubbutton").addEventListener("click", () => {
+      window.open("https://www.linkedin.com/in/annisaindrayanti/")
+    })
+  })
 
   return <Svg width={props.width} height={props.height} />
 }
