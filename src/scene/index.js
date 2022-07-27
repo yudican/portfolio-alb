@@ -46,12 +46,12 @@ export default function scene(props) {
 
   React.useEffect(() => {
     document.querySelector("#contactsbutton").addEventListener("click", () => {
-      window.open("https://www.linkedin.com/in/annisaindrayanti/")
+      window.open("https://linktr.ee/ichawor")
     })
   })
   React.useEffect(() => {
     document.querySelector("#githubbutton").addEventListener("click", () => {
-      window.open("https://www.linkedin.com/in/annisaindrayanti/")
+      window.open("https://linktr.ee/ichawor")
     })
   })
 
